@@ -1,0 +1,42 @@
+#sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #34495e;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.sidebar-hidden {
+    transform: translateX(-250px);
+}
+
+.profile {
+    padding: 2rem;
+    text-align: center;
+}
+
+#profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+nav ul li a:hover {
+    background-color: #2c3e50;
+}
