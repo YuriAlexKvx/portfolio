@@ -29,7 +29,4 @@ This is a personal portfolio website showcasing my projects and skills. The webs
 1. Clone the repository to your local machine.
 2. Open `index.html` in your web browser to view the portfolio.
 3. Customize the content in the `src/components/` directory to showcase your own projects and information.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
+4. Or if you just want to visualize it, click on the the vercel project.
